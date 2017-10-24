@@ -36,6 +36,12 @@
   		<param-value>spittr.config.WebConfig</param-value>
   	</init-param>
   	<load-on-startup>1</load-on-startup>
+  	<!-- multipart细节配置 -->
+  	<multipart-config>
+  		<location>/tmp/spittr/uploads</location>
+  		<max-file-size>2097152</max-file-size>
+  		<max-request-size>4194304</max-request-size>
+  	</multipart-config>
   </servlet>
   <!-- 将DispatcherServlet映射到"/" -->
   <servlet-mapping>
