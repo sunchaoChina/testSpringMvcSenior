@@ -7,7 +7,7 @@
 </head>
 <body>
 	<h1>
-		<s:message code="spittr.welcome" />
+		<s:message code="spittr.welcome" text="Welcome" />
 	</h1>
 </body>
 </html>
