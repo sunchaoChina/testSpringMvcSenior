@@ -1,6 +1,10 @@
 package spittr.config;
 
+import javax.servlet.Filter;
+
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
+import spittr.filter.MyFilter;
 
 public class SpittrWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 	
@@ -26,6 +30,14 @@ public class SpittrWebAppInitializer extends AbstractAnnotationConfigDispatcherS
 	@Override
 	protected String[] getServletMappings() {
 		return new String[] { "/" };
+	}
+	
+	/**
+	 * 组测Filter并映射到DispatcherServlet
+	 */
+	@Override
+	protected Filter[] getServletFilters() {
+		return new Filter[] { new MyFilter() };
 	}
 
 }
