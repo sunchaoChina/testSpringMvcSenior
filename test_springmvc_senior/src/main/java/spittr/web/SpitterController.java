@@ -9,6 +9,7 @@ import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import spittr.data.SpitterRepository;
 import spittr.pojo.Spitter;
@@ -35,7 +36,8 @@ public class SpitterController {
 	}
 
 	@RequestMapping(value = "/register", method = RequestMethod.POST)
-	public String processRegistration(@Valid Spitter spitter, Errors errors) {
+	public String processRegistration(@RequestParam("profilePicture") byte[] profilePicture, @Valid Spitter spitter,
+			Errors errors) {
 		if (errors.hasErrors()) {
 			return "registerForm";
 		}
