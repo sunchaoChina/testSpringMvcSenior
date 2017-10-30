@@ -52,7 +52,9 @@
 <node CREATED="1509004260811" ID="ID_1343967843" MODIFIED="1509171357478" TEXT="&#x67e5;&#x8be2;&#x5ba2;&#x6237;&#x6210;&#x4ea4;&#x56de;&#x62a5;">
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1509287001232" ID="ID_1869843538" MODIFIED="1509287008859" TEXT="&#x67e5;&#x8be2;&#x5206;&#x7ea7;&#x57fa;&#x91d1;"/>
+<node CREATED="1509287001232" ID="ID_1869843538" MODIFIED="1509323938719" TEXT="&#x67e5;&#x8be2;&#x5206;&#x7ea7;&#x57fa;&#x91d1;">
+<icon BUILTIN="button_ok"/>
+</node>
 <node CREATED="1509004330747" ID="ID_9370878" MODIFIED="1509171408563" TEXT="&#x67e5;&#x8be2;ETF&#x4fe1;&#x606f;">
 <icon BUILTIN="button_cancel"/>
 </node>
