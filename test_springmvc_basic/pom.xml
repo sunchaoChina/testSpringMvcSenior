@@ -269,6 +269,6 @@
             </configuration>  
         </plugin>  
     </plugins>
-    <finalName>testspring</finalName>
+    <finalName>test_springmvc_basic</finalName>
   </build>
 </project>
