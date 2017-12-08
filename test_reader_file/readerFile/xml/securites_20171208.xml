@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Securites xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Security>
+		<SecurityID>001</SecurityID>
+		<SecurityName>平安银行</SecurityName>
+		<SecurityPrice>12.234</SecurityPrice>
+	</Security>
+	<Security>
+		<SecurityID>002</SecurityID>
+		<SecurityName>平安银行</SecurityName>
+		<SecurityPrice>12.234</SecurityPrice>
+	</Security>
+</Securites>

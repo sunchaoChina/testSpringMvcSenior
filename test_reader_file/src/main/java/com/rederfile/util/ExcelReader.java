@@ -20,6 +20,12 @@ public class ExcelReader {
 	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(ExcelReader.class);
 
+	/**
+	 * 获取excel内容，其中第一层list为sheet，第二层为每个sheet里具体内容
+	 * 
+	 * @param path
+	 * @return
+	 */
 	public List<List<String[]>> getExcelReult(String path) {
 		Workbook workbook = null;
 		List<List<String[]>> singleSheetResult = new ArrayList<List<String[]>>();
@@ -28,7 +34,7 @@ public class ExcelReader {
 			fileInputStream = new FileInputStream(new File(path));
 			workbook = WorkbookFactory.create(fileInputStream);
 			for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
-				//获取excel的一个sheet页
+				// 获取excel的一个sheet页
 				Sheet sheet = workbook.getSheetAt(i);
 				List<String[]> rowList = getSingleSheetResult(sheet);
 				singleSheetResult.add(rowList);
@@ -57,8 +63,10 @@ public class ExcelReader {
 		}
 		return singleSheetResult;
 	}
+
 	/**
 	 * 获取当前sheet页中的一行数据
+	 * 
 	 * @param sheet
 	 * @return
 	 */
