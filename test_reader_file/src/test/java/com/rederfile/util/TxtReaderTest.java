@@ -15,4 +15,10 @@ public class TxtReaderTest {
 		}
 	}
 
+	@Test
+	public void testString() {
+		String a = "736###";
+		System.out.println(a.replaceAll("#", "."));
+	}
+
 }
