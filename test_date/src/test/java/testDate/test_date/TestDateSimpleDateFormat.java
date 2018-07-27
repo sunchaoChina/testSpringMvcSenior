@@ -15,4 +15,12 @@ public class TestDateSimpleDateFormat {
 		System.out.println(sdf.format(d));
 	}
 
+	@Test
+	public void testDateLong() {
+		SimpleDateFormat sdf = new SimpleDateFormat("MMdd");
+		Date d = new Date();
+
+		System.out.println(sdf.format(d));
+	}
+
 }
