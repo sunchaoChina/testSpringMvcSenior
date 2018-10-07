@@ -31,12 +31,18 @@ public class TestTry {
 
 	@Test
 	public void test_iterable() {
-		String a = "a,b,c";
+		String a = "1,2,3,4,5";
 		String[] as = a.split(",");
 		List<String> aas = Lists.newArrayList(as);
-		for (String aa : aas) {
-			System.out.println(aa);
+		for (int i = 0; i < as.length; i++) {
+			System.out.println(as[i]);
 		}
+	}
+
+	@Test
+	public void test_stringArray() {
+		String[] a = { "r", "t", "y", "u" };
+		System.out.println(a.toString());
 	}
 
 	@Test
@@ -49,6 +55,24 @@ public class TestTry {
 			System.out.println(sa);
 		}
 
+	}
+
+	@Test
+	public void test_double() {
+		List<String> s = new ArrayList<String>();
+		s.add("123");
+		s.add("321");
+		String[] sarray = s.toArray(new String[s.size()]);
+		for (String sa : sarray) {
+			System.out.println(sa);
+		}
+
+	}
+
+	@Test
+	public void test_big() {
+		double b = 0.12345;
+		System.out.println(b);
 	}
 
 	@Test
@@ -92,6 +116,34 @@ public class TestTry {
 		System.out.println("第四种：通过Map.values()遍历所有的value，但不能遍历key");
 		for (String v : map.values()) {
 			System.out.println("value= " + v);
+		}
+
+	}
+
+	@Test
+	public void test_map2() {
+		Map<Integer, String> map = new HashMap<Integer, String>();
+		System.out.println(map.get(1));
+		for (Integer s : map.keySet()) {
+			System.out.println(s);
+		}
+
+	}
+
+	public class Aug {
+		private String a;
+
+		public String getA() {
+			return a;
+		}
+
+		public void setA(String a) {
+			this.a = a;
+		}
+
+		@Override
+		public String toString() {
+			return "Aug [a=" + a + "]";
 		}
 
 	}
