@@ -13,7 +13,7 @@ import org.junit.Test;
 public class TestSpellSql {
 
 	@Test
-	public void test() {
+	public void test_read_to_sql() {
 		String readerPath = "C://Users//Administrator//Desktop//111//fjy20180516.txt";
 		String writerPath = "C://Users//Administrator//Desktop//111//2222.sql";
 		try {

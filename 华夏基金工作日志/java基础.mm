@@ -4,7 +4,7 @@
 <node CREATED="1513755821116" ID="ID_442015647" MODIFIED="1515572676481" POSITION="right" TEXT="java&#x6cdb;&#x578b;&lt;T&gt;"/>
 <node CREATED="1513755565533" ID="ID_316415599" MODIFIED="1513822658133" POSITION="right" TEXT="java&#x6ce8;&#x89e3;">
 <node CREATED="1533282104784" ID="ID_1752724295" MODIFIED="1533282179946" TEXT="javax.annotation.PostConstruct">
-<node CREATED="1533282182166" ID="ID_894749468" MODIFIED="1533282186011" TEXT="&#x88ab;@PostConstruct&#x4fee;&#x9970;&#x7684;&#x65b9;&#x6cd5;&#x4f1a;&#x5728;&#x670d;&#x52a1;&#x5668;&#x52a0;&#x8f7d;Servle&#x7684;&#x65f6;&#x5019;&#x8fd0;&#x884c;&#xff0c;&#x5e76;&#x4e14;&#x53ea;&#x4f1a;&#x88ab;&#x670d;&#x52a1;&#x5668;&#x6267;&#x884c;&#x4e00;&#x6b21;"/>
+<node CREATED="1533282182166" ID="ID_894749468" MODIFIED="1539911319320" TEXT="&#x88ab;@PostConstruct&#x4fee;&#x9970;&#x7684;&#x65b9;&#x6cd5;&#x4f1a;&#x5728;&#x670d;&#x52a1;&#x5668;&#x52a0;&#x8f7d;Service&#x7684;&#x65f6;&#x5019;&#x8fd0;&#x884c;&#xff0c;&#x5e76;&#x4e14;&#x53ea;&#x4f1a;&#x88ab;&#x670d;&#x52a1;&#x5668;&#x6267;&#x884c;&#x4e00;&#x6b21;"/>
 <node CREATED="1533282168927" ID="ID_1570726206" MODIFIED="1533282170587" TEXT="PostConstruct&#x5728;&#x6784;&#x9020;&#x51fd;&#x6570;&#x4e4b;&#x540e;&#x6267;&#x884c;,init()&#x65b9;&#x6cd5;&#x4e4b;&#x524d;&#x6267;&#x884c;&#x3002;PreDestroy&#xff08;&#xff09;&#x65b9;&#x6cd5;&#x5728;destroy()&#x65b9;&#x6cd5;&#x6267;&#x884c;&#x6267;&#x884c;&#x4e4b;&#x540e;&#x6267;&#x884c;"/>
 </node>
 </node>

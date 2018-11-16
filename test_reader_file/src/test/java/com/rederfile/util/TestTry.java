@@ -73,6 +73,8 @@ public class TestTry {
 	public void test_big() {
 		double b = 0.12345;
 		System.out.println(b);
+		String a = null;
+		System.out.println(new BigDecimal(a));
 	}
 
 	@Test
@@ -122,6 +124,8 @@ public class TestTry {
 
 	@Test
 	public void test_map2() {
+		String a = "M61";
+		System.out.println(a.substring(1));
 		Map<Integer, String> map = new HashMap<Integer, String>();
 		System.out.println(map.get(1));
 		for (Integer s : map.keySet()) {
