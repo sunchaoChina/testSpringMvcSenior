@@ -7,6 +7,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.junit.Test;
 
@@ -32,6 +35,7 @@ public class TestSpellSql {
 				}
 			}
 			System.out.println(number);
+
 			writer.flush();
 			reader.close();
 			writer.close();
@@ -44,9 +48,24 @@ public class TestSpellSql {
 
 	@Test
 	public void test_String() {
-		String a = "12312313.SZ";
-		String b = a.split("\\.")[0];
-		System.out.println(b);
+		String s = new String();
+		System.out.println(s.toString());
+	}
+
+	@Test
+	public void test_Map() {
+		Map<String, String> m = new HashMap<String, String>();
+		m.put("1", "123");
+		m.put("1", "321");
+		System.out.println(m.size());
+	}
+
+	@Test
+	public void test_Date() {
+		Date date1 = new Date();
+		System.out.println(date1.getTime());
+		Date date2 = new Date();
+		System.out.println(date2.getTime());
 	}
 
 }
