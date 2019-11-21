@@ -33,7 +33,7 @@ public class ExcelReader {
 				// 获取excel的一个sheet页
 				Sheet sheet = workbook.getSheetAt(i);
 				List<String[]> rowList = getSingleSheetResult(sheet);
-				if(rowList == null){
+				if (rowList == null) {
 					continue;
 				}
 				singleSheetResult.add(rowList);
@@ -74,23 +74,22 @@ public class ExcelReader {
 		List<String[]> rowList = new ArrayList<String[]>();
 		// 获取该sheet页总行数
 		int rows = sheet.getPhysicalNumberOfRows();
-		if(rows == 0){
+		if (rows == 0) {
 			return null;
 		}
 		// 获取该sheet页总列数
-		int cellNum = sheet.getRow(0).getPhysicalNumberOfCells();
 		for (int i = 1; i < rows; i++) {
 			Row row = sheet.getRow(i);
 			List<String> cellList = new ArrayList<String>();
-			for (int j = 0; j < cellNum; j++) {
+			for (int j = 0; j < row.getLastCellNum(); j++) {
 				Cell cell = row.getCell(j);
 				if (cell != null) {
 					int cellType = cell.getCellType();
-					if(cellType == cell.CELL_TYPE_FORMULA){
+					if (cellType == cell.CELL_TYPE_FORMULA) {
 						cellList.add(cell.getCellFormula());
-					}else if(cellType == cell.CELL_TYPE_NUMERIC){
-						cellList.add(((Double)cell.getNumericCellValue()).toString());
-					}else if(cellType == cell.CELL_TYPE_STRING){
+					} else if (cellType == cell.CELL_TYPE_NUMERIC) {
+						cellList.add(((Double) cell.getNumericCellValue()).toString());
+					} else if (cellType == cell.CELL_TYPE_STRING) {
 						cellList.add(cell.getStringCellValue().trim());
 					}
 				} else {
