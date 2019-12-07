@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IMIXML>
+	<SecDefList SecDefListNum="2">
+		<SecDef SecurityDefinitionType="19" LastTradeCashSpread="45612.36"
+			LastMinUnitRedempCashSpread="45612.26" TrdDt="20180222">
+			<Instrmt ID="XXX" LastTradeDate="20180121"
+				LastSubRedempMinUnit="5641234.26" LastIOPValue="2.32"
+				TradeEstimatedCashAmt="12540.25" TradeRedempEstimatedCashAmt="12540.15"
+				CashSubPropCap="20.02" InstitutionMaxPrchsAmount="200.09"
+				InstitutionMaxRedempAmount="180.07" MarketMaxPrchsAmount="240.09"
+				MarketMaxRedempAmount="300.04" SubRedempMinUnit="1000.21" />
+			<Undly NoUnderlyings="1" Sym="-" SubRedempIndicator="0" ID="XXXX"
+				Qty="2000.03" DirtPx="108.0634" UnderlyingCashSubType="2"
+				UnderlyingCashSubPremRatio="21.02" />
+			<Undly NoUnderlyings="2" Sym="-" SubRedempIndicator="1" ID="XXXX"
+				Qty="2000.04" DirtPx="108.0234" UnderlyingCashSubType="1"
+				UnderlyingCashSubPremRatio="23.02" />
+			<Undly NoUnderlyings="3" Sym="-" SubRedempIndicator="0" ID="XXXX"
+				Qty="2000.04" DirtPx="108.0634" UnderlyingCashSubType="2"
+				UnderlyingCashSubPremRatio="21.02" />
+			<Undly NoUnderlyings="4" Sym="-" SubRedempIndicator="1" ID="XXXX"
+				Qty="2000.04" DirtPx="108.0234" UnderlyingCashSubType="1"
+				UnderlyingCashSubPremRatio="23.02" />
+		</SecDef>
+		<SecDef SecurityDefinitionType="19" LastTradeCashSpread="45612.36"
+			LastMinUnitRedempCashSpread="45612.26" TrdDt="20180222">
+			<Instrmt ID="XXX" LastTradeDate="20180121"
+				LastSubRedempMinUnit="5641234.26" LastIOPValue="2.32"
+				TradeEstimatedCashAmt="12540.25" TradeRedempEstimatedCashAmt="12540.15"
+				CashSubPropCap="20.02" InstitutionMaxPrchsAmount="200.09"
+				InstitutionMaxRedempAmount="180.07" MarketMaxPrchsAmount="240.09"
+				MarketMaxRedempAmount="300.04" SubRedempMinUnit="1000.21" />
+			<Undly NoUnderlyings="1" Sym="-" SubRedempIndicator="0" ID="XXXX"
+				Qty="2000.03" DirtPx="108.0634" UnderlyingCashSubType="2"
+				UnderlyingCashSubPremRatio="21.02" />
+			<Undly NoUnderlyings="2" Sym="-" SubRedempIndicator="1" ID="XXXX"
+				Qty="2000.04" DirtPx="108.0234" UnderlyingCashSubType="1"
+				UnderlyingCashSubPremRatio="23.02" />
+			<Undly NoUnderlyings="3" Sym="-" SubRedempIndicator="0" ID="XXXX"
+				Qty="2000.04" DirtPx="108.0634" UnderlyingCashSubType="2"
+				UnderlyingCashSubPremRatio="21.02" />
+			<Undly NoUnderlyings="4" Sym="-" SubRedempIndicator="1" ID="XXXX"
+				Qty="2000.04" DirtPx="108.0234" UnderlyingCashSubType="1"
+				UnderlyingCashSubPremRatio="23.02" />
+		</SecDef>
+	</SecDefList>
+</IMIXML>
